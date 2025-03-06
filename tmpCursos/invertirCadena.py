@@ -1,5 +1,6 @@
 def invierteCadena (cadena):
-    cadena = cadena[::-1]
+    return cadena[::-1]
     
 cadena =input("Por favor ingresar cadena de caracteres")
-print(f"La cadena invertida es: {cadena}")
+Cadena_Invertida = invierteCadena(cadena)
+print(f"La cadena invertida es: {Cadena_Invertida}")
