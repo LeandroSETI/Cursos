@@ -12,3 +12,4 @@ def contWord(cadena):
     print(f"El numero de palabras en la cadena de caracteres es: {conteo}")
 
 cadena = input("Ingresar cadena de caracteres: ")
+contWord(cadena)
